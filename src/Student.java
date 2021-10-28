@@ -12,5 +12,7 @@ public class Student extends Persoana {
         s.append(super.toString());
         s.append(" *** Student: " + getNume() + "/" + getCNP() + "/" + this._nrMatricol);
         return s.toString();
+
+        ////
     }
 }
